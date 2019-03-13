@@ -44,7 +44,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var routes = [
-    { path: "angular_crash", component: _components_todos_todos_component__WEBPACK_IMPORTED_MODULE_3__["TodosComponent"] },
+    { path: "", component: _components_todos_todos_component__WEBPACK_IMPORTED_MODULE_3__["TodosComponent"] },
     { path: "about", component: _components_pages_about_about_component__WEBPACK_IMPORTED_MODULE_4__["AboutComponent"] }
 ];
 var AppRoutingModule = /** @class */ (function () {
@@ -266,7 +266,7 @@ module.exports = ".header {\n  background: #333;\n  color: #fff;\n  text-align: 
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<header class=\"header\">\n  <h1>TodoList</h1>\n  <nav>\n    <a routerLink=\"/angular_crash\">Home</a> | <a routerLink=\"/about\">About</a>\n  </nav>\n</header>\n"
+module.exports = "<header class=\"header\">\n  <h1>TodoList</h1>\n  <nav>\n    <a routerLink=\"/\">Home</a> | <a routerLink=\"/about\">About</a>\n  </nav>\n</header>\n"
 
 /***/ }),
 
