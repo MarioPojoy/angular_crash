@@ -3,7 +3,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { TodosComponent } from "./components/todos/todos.component";
 import { AboutComponent } from "./components/pages/about/about.component";
 const routes: Routes = [
-  { path: "angular_crash", component: TodosComponent },
+  { path: "", component: TodosComponent },
   { path: "about", component: AboutComponent }
 ];
 
